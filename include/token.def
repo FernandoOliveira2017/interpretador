@@ -1,0 +1,43 @@
+/*
+ * token.def
+ * 
+ * definições dos tokens
+ * 
+ * Algoritmo implementado pelos
+ * alunos do curso de ciência da
+ * computação da Unipampa
+ * 
+ * Public Domain
+ */
+
+#ifndef __token_def__
+#define __token_def__
+
+numeros,
+numero_pi,
+numero_de_euler,
+abre_parentese,
+fecha_parentese,
+modulo,
+simbolo,
+arco_cosseno,
+arco_seno,
+arco_tangente,
+cosseno,
+cossecante,
+cotangente,
+logaritmo_neperiano,
+logaritmo_decimal,
+secante,
+seno,
+tangente,
+exponenciacao,
+radiciacao_2,
+radiciacao_3,
+multiplicacao,
+divisao,
+mais,
+menos,
+fim
+
+#endif

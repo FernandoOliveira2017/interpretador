@@ -1,0 +1,7 @@
+f(x) := x^2;        // x é uma variável local da função f
+g(x,y) := x+y;      // x e y são variáveis locais da função g
+
+x+y = 2*x;          // x = y
+2*y = x^2;          // x = y = 2
+
+t := f(x)+g(y);     // atribuição e declaração da variável t = 8

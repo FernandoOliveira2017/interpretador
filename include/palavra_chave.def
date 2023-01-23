@@ -1,0 +1,25 @@
+/*
+ * palavra_chave.def
+ * 
+ * definições das palavras chaves
+ * 
+ * Algoritmo implementado pelos
+ * alunos do curso de ciência da
+ * computação da Unipampa
+ * 
+ * Public Domain
+ */
+
+#ifndef __palavra_chave_def__
+#define __palavra_chave_def__
+
+{ palavra_chave (numero_de_euler, "e") },
+{ palavra_chave (logaritmo_neperiano, "ln"), palavra_chave (numero_pi, "pi"), palavra_chave (tangente, "tg") },
+{ palavra_chave (cosseno, "cos"), palavra_chave (logaritmo_decimal, "log"),
+  palavra_chave (secante, "sec"), palavra_chave (seno, "sen") },
+{ palavra_chave (cotangente, "cotg") },
+{ palavra_chave (radiciacao_3, "raizc"), palavra_chave (radiciacao_2, "raizq") },
+{ palavra_chave (arco_cosseno, "arccos"), palavra_chave (arco_seno, "arcsen"),
+  palavra_chave (arco_tangente, "arctan"), palavra_chave (cossecante, "cossec") },
+
+#endif

@@ -1,0 +1,43 @@
+Para compilar o programa é necessário ter a biblioteca gtk 3.0 istalada,
+para isso digite no terminal do linux:
+
+sudo apt-get install libgtk-3-dev
+
+para compilar o programa utilize o makefile,
+digite no terminal:
+
+make -f makefile
+
+lista de funções e operadores suportáveis de acordo com a precedência:
+
+x                       - variável
+numero decimal          - número com ponto flutuante
+pi                      - número pi
+e                       - número de euler
+( expressão )           - parênteses
+| expressão |           - módulo
++ expressão             - mais unário
+- expressão             - menos unário
+arccos  expressão       - arco cosseno
+arcsen  expressão       - arco seno
+arctan  expressão       - arco tangente
+cos     expressão       - cosseno
+cossec  expressão       - cossecante
+cotg    expressão       - cotangente
+ln      expressão       - logaritmo natural ou neperiano
+log     expressão       - logaritmo decimal
+sec     expressão       - secante
+sen     expressão       - seno
+tg      expressão       - tangente
+raizq   expressão       - raiz quadrada
+raizc   expressão       - raiz cúbica
+expressão ^ expressão   - potenciação
+expressão * expressão   - multiplicação
+expressão / expressão   - divisão
+expressão + expressão   - adição
+expressão - expressão   - subtração
+
+O programa tem detecção de overflow e underflow caso a expressão transborde
+o limite máximo (1E-36 a 1E+36 com precisão de 14 dígitos), usa a biblioteca
+gráfica gtk 3.0 disponível para linux e mingw (ambiente windows) e a biblioteca
+cairo para desenhos de gráficos.

@@ -1,0 +1,41 @@
+http://lambda-the-ultimate.org
+
+Implemtar função seno e cosseno através dos polinômios de Chebyshev ou CORDIC (COordinate Rotation DIgital Computer).
+Implementar a fórmula para extração das 3 raízes cúbicas de um número racional: Fórmula Luderiana.
+Aderir à notação polonesa reversa (RPN).
+
+https://www.ime.usp.br/~pf/mac0122-2003/aulas/scanner.html
+https://aleteia.wordpress.com/2009/03/17/c-calculadora-simples-com-notacao-polonesa-reversa/
+http://www.geeksbr.com/2014/05/programacao-em-c-notacao-polonesa-pos.html
+
+http://www.math.wpi.edu/IQP/BVCalcHist/calctoc.html   ----- computação algébrica teoria da implementação
+
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-spring-2010/lecture-notes/MIT6_035S10_lec03b.pdf **********
+
+Bignums:
+https://github.com/kasparsklavins/bigint/blob/master/src/bigint.cpp
+https://github.com/kokke/tiny-bignum-c/blob/master/bn.c
+https://github.com/nickgammon/BigNumber
+
+Implementar a arvore de sintaxe abstrata com um LR parser com os seguintes passos:
+    - constrói a ast da equação, se um símbolo não for declarado será declarado como uma incógnita.
+    - isola todas as incógnitas da equação construindo uma árvore para cada uma delas e destruindo a árvore original da equação.
+    - se uma equação tiver mais de uma incógnita substitui a incógnita da primeira pelo valor
+    - faz todas as simplificações possíveis nas árvores de cada incógnita, como fatoração e transformação de ponto flutuante para inteiro.
+
+
+
+https://stackoverflow.com/questions/35509898/constructing-ast-during-lr-parsing/42914861
+
+
+
+https://github.com/spease/lr/blob/master/LRParser.hpp
+http://www.devincook.com/goldparser/doc/about/lalr.htm
+https://github.com/MattDiesel/cpp-pratt/blob/master/production.h        ----> a ast é top
+https://www.tutorialspoint.com/compiler_design/compiler_design_bottom_up_parser.htm     ----> exemplo
+
+Implementar um Sistema algébrico computacional (computação simbólica) possibilitando:
+    - Bignum (pode ser usando a GNU Multiple-Precision Library - GMP -).
+    - motor de manipulação simbólica, para simplificar expressões algébricas, para diferenciar e para integrar funções e resolver equações.
+    - facilidades gráficas, para produzir gráficos de funções, normalmente a duas ou a três dimensões.
+    - um subsistema de álgebra linear, para permitir cálculo de matrizes e resolver sistemas de equações lineares.
